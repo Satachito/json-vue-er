@@ -1,0 +1,23 @@
+{
+  "name": "json-vue-er",
+  "version": "1.0.1",
+  "description": "a JSON viewer component in Vue.js",
+  "main": "json-vue-er.vue",
+  "homepage": "https://github.com/satachito/json-vue-er",
+  "bugs": {
+    "url": "https://github.com/satachito/json-vue-er/issues"
+  },
+  "keywords": [
+    "vuejs",
+		"vue",
+		"json",
+		"viewer",
+    "component"
+  ],
+  "author": "Satoru Ogura",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.0.0"
+  }
+}
+
