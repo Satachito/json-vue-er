@@ -10,7 +10,7 @@
 			<template v-if="opened">
 				<json-vue-er
 					v-for="k in Object.keys( json )"
-					key=k
+					:key="k"
 					:max-depth="maxDepth"
 					:current-depth="currentDepth + 1"
 					:json="json[ k ]"
