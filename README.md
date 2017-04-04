@@ -16,7 +16,7 @@ npm install json-vue-er --save
 In script tag
 
 ```javascript
-import JsonVueEr from "json-vue-er"
+import JsonVueEr from "../node_modules/json-vue-er/JsonVueEr"
 ```
 
 ## Sample
@@ -26,8 +26,6 @@ See 'sample' directory in the package.
 Simple one:
 
 ```
-import JsonVueEr from "json-vue-er"
-
 export default {
 	components: { JsonVueEr }
 ,	template	: '<json-vue-er :json="{ a: 1, b: 2 }"></json-vue-er>'
@@ -37,8 +35,6 @@ export default {
 Comprehensive one:
 
 ```
-import JsonVueEr from "json-vue-er"
-
 export default {
 	components: { JsonVueEr }
 ,	data()	{ return { json: "{ a: 1, b: [ 'A', 'B' ], c: [ 'A', 'B', 'C' ], d: [ 'A', 'B', 'C', 'D' ] }", depth: 0 } }
