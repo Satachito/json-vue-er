@@ -16,7 +16,7 @@ npm install json-vue-er --save
 In script tag
 
 ```javascript
-import JsonVueEr from "../node_modules/json-vue-er/JsonVueEr"
+import JsonVueEr from "json-vue-er/JsonVueEr"
 ```
 
 ## Sample
@@ -27,8 +27,8 @@ Simple one:
 
 ```
 export default {
-	components: { JsonVueEr }
-,	template	: '<json-vue-er :json="{ a: 1, b: 2 }"></json-vue-er>'
+  components: { JsonVueEr }
+, template: '<json-vue-er :json="{ a: 1, b: 2 }"></json-vue-er>'
 }
 ```
 
@@ -36,19 +36,19 @@ Comprehensive one:
 
 ```
 export default {
-	components: { JsonVueEr }
-,	data()	{ return { json: "{ a: 1, b: [ 'A', 'B' ], c: [ 'A', 'B', 'C' ], d: [ 'A', 'B', 'C', 'D' ] }", depth: 0 } }
-,	template: `
-		<div>
-			DEPTH:<input v-model="depth" /><br />
-			<json-vue-er 
-				:json="json"
-				:name="(root)"
-				:max-depth="depth"
-			>
-			</json-vue-er>
-		</div>
-	`
+  components: { JsonVueEr }
+, data(){ return { json: "{ a: 1, b: [ 'A', 'B' ], c: [ 'A', 'B', 'C' ], d: [ 'A', 'B', 'C', 'D' ] }", depth: 0 } }
+, template: `
+    <div>
+      DEPTH:<input v-model="depth" /><br />
+      <json-vue-er 
+        :json="json"
+        :name="(root)"
+        :max-depth="depth"
+      >
+      </json-vue-er>
+    </div>
+  `
 }
 ```
 
@@ -63,4 +63,5 @@ export default {
 ## Changelog
 
 - 1.0.0: Initial Release
+- 1.0.7: Minor house keeping
 
