@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import JsonVueEr from '../node_modules/json-vue-er/JsonVueEr'
+import JsonVueEr from 'json-vue-er/JsonVueEr'
 
 export default {
 	components: { JsonVueEr }
