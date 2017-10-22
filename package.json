@@ -20,7 +20,7 @@
     "component"
   ],
   "license": "MIT",
-  "main": "json-vue-er.vue",
+  "main": "JsonVueEr.vue",
   "maintainers": [
     {
       "name": "satachito",
@@ -30,6 +30,6 @@
   "name": "json-vue-er",
   "optionalDependencies": {},
   "scripts": {},
-  "version": "1.0.8"
+  "version": "1.1.0"
 }
 

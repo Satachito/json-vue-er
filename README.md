@@ -16,7 +16,7 @@ npm install json-vue-er --save
 In script tag
 
 ```javascript
-import JsonVueEr from "json-vue-er/JsonVueEr"
+import JsonVueEr from "json-vue-er"
 ```
 
 ## Sample
