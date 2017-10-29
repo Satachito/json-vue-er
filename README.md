@@ -63,5 +63,5 @@ export default {
 ## Changelog
 
 - 1.0.0: Initial Release
-- 1.0.7: Minor house keeping
+- 1.1.3: Minor house keeping
 
