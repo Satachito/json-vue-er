@@ -63,5 +63,8 @@ export default {
 ## Changelog
 
 - 1.0.0: Initial Release
+
 - 1.1.3: Minor house keeping
+- 1.1.4: Minor house keeping
+- 1.1.5: Remove vulnerable dependency in sample directory.
 
